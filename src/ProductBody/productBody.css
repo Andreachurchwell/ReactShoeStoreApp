@@ -1,0 +1,112 @@
+#productBodyContainer {
+    width: 90vw;
+    height: 45vh;
+    /* border: 2px solid lightgreen; */
+    padding: 5%;
+
+}
+
+.saleoff-background {
+    /* background-color:  rgb(239, 238, 236); */
+    /* width: 10%; */
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.quanity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-to-cart-btn {
+    /* background-color: antiquewhite; */
+    width: 60vw;
+    background-color: darkorange;
+    color: whitesmoke;
+
+}
+
+/* .cartIcon{
+  color: whitesmoke
+} */
+@media(550px> width) {
+    #imageG3 {
+        display: none;
+    }
+}
+
+/* @media(550px < width){
+    #image3{
+        display: flex;
+        justify-content: flex-end;
+        border: 2px solid lawngreen;
+    }
+} */
+
+@media(550px<width) {
+    #product-body-comp-div {
+        display: flex;
+
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid yellow; */
+        font-size: 14px;
+    }
+}
+
+@media(550px < width) {
+    #productBodyContainer {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: red 2px solid; */
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+    }
+}
+
+
+@media(550px< width) {
+    .add-to-cart {
+        width: 40%;
+        /* border: 2px solid pink; */
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media(550px < width) {
+    .quanity-container {
+        width: 100%;
+        justify-content: flex-start;
+        /* border: 2px solid rgb(34, 51, 178); */
+        align-items: stretch;
+
+    }
+}
+
+@media(550px < width) {
+    .saleoff-background {
+        display: flex;
+        /* flex-direction: column; */
+        /* border: 2px solid navy; */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%
+    }
+}

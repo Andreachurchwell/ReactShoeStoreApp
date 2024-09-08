@@ -1,0 +1,156 @@
+ #header-comp-div {
+   width: 99vw;
+   height: 10vh;
+ }
+
+ #header-container {
+   width: 99vw;
+   height: 8vh;
+   border-bottom: 1px solid rgba(218, 215, 215, 0.248);
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+ }
+
+ .menu-icon-container {
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   margin-left: 70px;
+   position: relative;
+
+
+ }
+
+ .sneaker-logo-container {
+   font-size: 25px;
+   display: flex;
+
+
+ }
+
+ .profile-img {
+   width: 30px;
+   height: 30px;
+   display: flex;
+ }
+
+ .cart-icon-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+
+ .menu {
+   display: none;
+ }
+
+ .shopping-cart-quantity {
+   /* width: 25px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 50%; */
+   position: absolute;
+   top: 10px;
+   /* Adjust to move the count up/down */
+   right: 50px;
+   /* Adjust to move the count left/right */
+   background-color: darkorange;
+   color: white;
+   border-radius: 50%;
+   padding: 4px 8px;
+   font-size: 12px;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ @media(550px< width) {
+   .shopping-cart-quantity {
+     top: 45px;
+     right: 235px;
+
+   }
+ }
+
+ @media(550px < width) {
+   #header-container {
+     width: 98px
+   }
+ }
+
+
+
+ @media (min-width: 1024px) {
+   #header-comp-div {
+     width: 90vw;
+     height: 15vh;
+   }
+
+   #header-container {
+     width: 90vw;
+     height: 12vh;
+     border-width: 3px;
+     justify-content: space-between;
+   }
+
+   .menu-icon-container {
+     margin-left: 50px;
+
+     display: flex;
+     flex-direction: row-reverse;
+   }
+
+   .sneaker-logo-container {
+     font-size: 15px;
+
+   }
+
+   .profile-img {
+     width: 40px;
+     height: 40px;
+
+   }
+
+   .cart-icon-container {
+     margin-right: 30px;
+   }
+ }
+
+ @media(550px< width) {
+   .menu {
+     display: flex;
+     font-size: 15px;
+     align-items: center;
+     /* border: 2px solid blue; */
+     width: 60vw;
+     height: 10vh;
+     margin: 2px 8px;
+
+   }
+
+   @media(550px < width) {
+     #menu-row {
+       display: flex;
+       justify-content: center;
+       list-style-type: none;
+       align-items: center;
+       padding: 10px 20px;
+       gap: 10px;
+
+     }
+
+   }
+ }
+
+ /* @media(550px < width){
+  .header-icons-container{
+    
+  }
+ } */
+ #menu-row {
+   font-size: 14px;
+ }
