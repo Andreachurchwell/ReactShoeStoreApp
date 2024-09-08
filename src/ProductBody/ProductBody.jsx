@@ -7,7 +7,7 @@ import cartIcon from '../assets/icon-cart.svg'
 import CartDropdown from '../CartDropdown/CartDropdown'
 import ImageGallery3 from '../ImageGallery/ImageGallery3'
 
-const ProductBody = ({ setQuantity, quantity }) => {
+const ProductBody = ({ setQuantity, quantity, cartItems }) => {
 
 
   const discountPrice = productData.product.price / 2
