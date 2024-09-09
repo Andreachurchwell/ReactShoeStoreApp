@@ -6,6 +6,10 @@ import plusIcon from '../assets/icon-plus.svg'
 import cartIcon from '../assets/icon-cart.svg'
 import CartDropdown from '../CartDropdown/CartDropdown'
 import ImageGallery3 from '../ImageGallery/ImageGallery3'
+import whiteIcon from '../assets/whiteIcon.svg'
+
+
+
 
 const ProductBody = ({ setQuantity, quantity, cartItems }) => {
 
@@ -55,7 +59,7 @@ const ProductBody = ({ setQuantity, quantity, cartItems }) => {
       <div id='product-body-comp-div'>
 
         <ImageGallery3 />
-        
+
         <div id='productBodyContainer'>
 
           {/* {console.log('productData', productData)} */}
@@ -95,7 +99,7 @@ const ProductBody = ({ setQuantity, quantity, cartItems }) => {
             <div className='add-to-cart'>
 
               <button className='add-to-cart-btn' onClick={handleAddToCart}>
-                <img src={cartIcon} alt="" style={{ color: 'white' }} className='cartIcon' onClick={toggleCartVis} />
+                <img src={whiteIcon} alt="" style={{ width: '15px', marginRight: '4px' }} className='cartIcon' onClick={toggleCartVis} />
                 <span className='addToCart'>Add To Cart</span>
               </button>
 

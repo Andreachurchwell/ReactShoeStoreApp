@@ -58,12 +58,7 @@ const ImageGallery = ({ images }) => {
         </button>
       </div>
       <img src={currentImageIndex} />
-      {/* {sneakerImages.map((image, index) => (
-        <img key={index}
-          src={image}
-          alt={`Thumbnail ${index + 1}`}
-          onClick={() => setCurrentImageIndex(image)} />
-      ))} */}
+   
 
     </div>
   )
