@@ -49,8 +49,13 @@ const ProductBody = ({ setQuantity, quantity, cartItems }) => {
 
     <>
 
+
+
+
       <div id='product-body-comp-div'>
+
         <ImageGallery3 />
+        
         <div id='productBodyContainer'>
 
           {/* {console.log('productData', productData)} */}
