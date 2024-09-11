@@ -8,17 +8,21 @@ const NavBar = () => {
 
 
     const toggleMenu = () => {
+
         setIsOpen(!isOpen)
+
     }
+
+
     return (
         <div id='navbar-comp-div'>
             <div className="mobile-menu-container">
                 <button className="menu-toggle" onClick={toggleMenu} style={{ marginTop: '22px', outline: 'none' }}>
                     {isOpen ?
-                        <img src={closeBtn} alt=""className='burger-btn' />
+                        <img src={closeBtn} alt="" className='burger-btn' />
 
                         :
-                        <img src={menuImg} alt=""className='burger-btn' />
+                        <img src={menuImg} alt="" className='burger-btn' />
 
                     }
                 </button>

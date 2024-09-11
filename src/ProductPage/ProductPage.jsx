@@ -18,14 +18,15 @@ const ProductPage = () => {
 
 
 
-  const addToCart = (product) => {
-    // setCartItems([...cartItems, product])
+  const addToCart = () => {
+  
     setIsCartVis(true)
 
   }
 
   const toggleCartVis = () => {
     setIsCartVis(!isCartVis)
+   
   }
 
 

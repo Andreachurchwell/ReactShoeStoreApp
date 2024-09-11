@@ -34,11 +34,7 @@ const ProductBody = ({ setQuantity, quantity, cartItems }) => {
     }
   }
 
-  // const addToCart = (product) => {
-  //   // setCartItems([...cartItems, product])
-  //   setIsCartVis(true)
-
-  // }
+ 
 
   const handleAddToCart = () => {
     setQuantity(quantity)

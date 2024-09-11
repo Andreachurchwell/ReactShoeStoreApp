@@ -36,11 +36,7 @@ const Header = ({ toggleCartVis, quantity }) => {
               <li>Contact</li>
             </ul>
           </div>
-          {/* 
-      <button className='menu-icon'>
-
-          <img src={menuImg} alt="" />
-        </button> */}
+    
 
 
           <div className='sneaker-logo-container' style={{ marginLeft: '5px' }}>
@@ -76,7 +72,7 @@ const Header = ({ toggleCartVis, quantity }) => {
 
 
         </div>
-        {/* <p style={{width: '20px', height: '20px', color: 'red'}}>{quantity}</p> */}
+
 
       </div>
     </div>
